@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/watercolor-abstract-background-with-grunge-effect_1340-4276.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+img {
+    display: block;
+}
+#main {
+    text-align: center
+}
+#title {
+    text-align: center;
+    color: orchid;
+}
+#img-div {
+    text-align: center;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+
+}
+#img-caption {
+    margin: auto;
+    color: orchid;
+    font-size: 25px;
+}
+#tribute-link {
+    color: orchid;
+}
+#tribute-info ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+    color: orchid;
+}
