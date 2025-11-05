@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="">
+        <meta name="viewport" content="width=device-width, iniz`tial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Survey Form</title>
+    </head>
+    <div>
+    <body>
+        <main>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">This short survey form is created to collect basic information and preferences from participants. Please provide your name, contact number, and email address, then select your choice from the two available options. Your information will be kept confidential and used only for record or communication purposes related to this survey. Thank you for your time and participation.</p>
+            <form action="" id="survey-form">
+                <label for="name" id="name-label">Name</label>
+                <input id="name" type="text" placeholder="name" required>
+                <label for="email" id="email-label">Email</label>
+                <input id="email" type="email" placeholder="email" required>
+                <label for="number" id="number-label">Number</label>
+                <input id="number" type="number" placeholder="number" min="99999999999" max="999999999999">
+                <select name="dropdown" id="dropdown">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <input type="radio" name="persontype" value="catperson">Cat Person
+                    <input type="radio" name="persontype" value="dogperson">Dog Person
+                    <input type="checkbox" value="introvert">Introvert
+                    <input type="checkbox" value="extrovert">Extrovert
+                </select>
+                <textarea name="extrainfo" id="extrainfo"></textarea>
+                <button id="submit" type="submit">SUBMIT</button>
+            </form>
+        </main>
+    </body>
+    </div>
+</html>
