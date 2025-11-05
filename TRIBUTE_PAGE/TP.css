@@ -8,12 +8,16 @@ body {
 img {
     display: block;
 }
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 #main {
     text-align: center
 }
 #title {
     text-align: center;
     color: orchid;
+    font-style: italic oblique;
 }
 #img-div {
     text-align: center;
@@ -40,4 +44,13 @@ img {
     margin: 0;
     justify-content: space-evenly;
     color: orchid;
+}
+#tribute-info p {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+    color: orchid;
+    font-style: italic;
 }
