@@ -1,0 +1,91 @@
+header{
+    position: relative;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+    unicode-bidi: isolate;
+}
+body{
+    background-color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    width: 60vw;
+}
+nav{
+    font-weight: 400;
+    display: block;
+    unicode-bidi: isolate;
+}
+nav ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+li{
+    list-style: none;
+    display: list-item;
+    unicode-bidi: isolate;
+}
+#main-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin-top: 50px;
+}
+section{
+    display: block;
+    unicode-bidi: isolate;
+}
+#main-form h2{
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+form{
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+#main-doc{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+#features{
+    margin-top: 30px;
+}
+#how_it_works{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#pricing{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
